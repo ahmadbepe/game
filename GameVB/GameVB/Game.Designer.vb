@@ -23,44 +23,64 @@ Partial Class Game
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Button23 = New System.Windows.Forms.Button()
-        Me.Button24 = New System.Windows.Forms.Button()
-        Me.Button25 = New System.Windows.Forms.Button()
-        Me.Button26 = New System.Windows.Forms.Button()
-        Me.Button32 = New System.Windows.Forms.Button()
-        Me.Button33 = New System.Windows.Forms.Button()
-        Me.Button34 = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
-        Me.Button36 = New System.Windows.Forms.Button()
-        Me.Button37 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.lblA = New System.Windows.Forms.Label()
+        Me.lblS = New System.Windows.Forms.Label()
+        Me.lblD = New System.Windows.Forms.Label()
+        Me.lblF = New System.Windows.Forms.Label()
+        Me.lblQ = New System.Windows.Forms.Label()
+        Me.lblY = New System.Windows.Forms.Label()
+        Me.lblT = New System.Windows.Forms.Label()
+        Me.lblR = New System.Windows.Forms.Label()
+        Me.lblE = New System.Windows.Forms.Label()
+        Me.lblW = New System.Windows.Forms.Label()
+        Me.lblU = New System.Windows.Forms.Label()
+        Me.lblI = New System.Windows.Forms.Label()
+        Me.lblO = New System.Windows.Forms.Label()
+        Me.lblP = New System.Windows.Forms.Label()
+        Me.lblV = New System.Windows.Forms.Label()
+        Me.lblC = New System.Windows.Forms.Label()
+        Me.lblX = New System.Windows.Forms.Label()
+        Me.lblZ = New System.Windows.Forms.Label()
+        Me.lblL = New System.Windows.Forms.Label()
+        Me.lblG = New System.Windows.Forms.Label()
+        Me.lblH = New System.Windows.Forms.Label()
+        Me.lblJ = New System.Windows.Forms.Label()
+        Me.lblK = New System.Windows.Forms.Label()
+        Me.lblB = New System.Windows.Forms.Label()
+        Me.lblN = New System.Windows.Forms.Label()
+        Me.lblM = New System.Windows.Forms.Label()
+        Me.btnQ = New System.Windows.Forms.Button()
+        Me.btnP = New System.Windows.Forms.Button()
+        Me.btnE = New System.Windows.Forms.Button()
+        Me.btnO = New System.Windows.Forms.Button()
+        Me.btnI = New System.Windows.Forms.Button()
+        Me.btnU = New System.Windows.Forms.Button()
+        Me.btnT = New System.Windows.Forms.Button()
+        Me.btnW = New System.Windows.Forms.Button()
+        Me.btnY = New System.Windows.Forms.Button()
+        Me.btnR = New System.Windows.Forms.Button()
+        Me.btnL = New System.Windows.Forms.Button()
+        Me.btnK = New System.Windows.Forms.Button()
+        Me.btnJ = New System.Windows.Forms.Button()
+        Me.btnH = New System.Windows.Forms.Button()
+        Me.btnG = New System.Windows.Forms.Button()
+        Me.btnF = New System.Windows.Forms.Button()
+        Me.btnD = New System.Windows.Forms.Button()
+        Me.btnS = New System.Windows.Forms.Button()
+        Me.btnA = New System.Windows.Forms.Button()
+        Me.btnZ = New System.Windows.Forms.Button()
+        Me.btnX = New System.Windows.Forms.Button()
+        Me.btnC = New System.Windows.Forms.Button()
+        Me.btnV = New System.Windows.Forms.Button()
+        Me.btnB = New System.Windows.Forms.Button()
+        Me.btnN = New System.Windows.Forms.Button()
+        Me.btnM = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -74,361 +94,15 @@ Partial Class Game
         Me.Label1.Location = New System.Drawing.Point(111, 4)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(284, 24)
-        Me.Label1.TabIndex = 0
+        Me.Label1.TabIndex = 1
         Me.Label1.Text = "Gunung Tertinggi  di Pulau Jawa"
-        '
-        'Button1
-        '
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(128, 272)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(31, 23)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Q"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(313, 272)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(31, 23)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Y"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(350, 272)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(31, 23)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "U"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(387, 272)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(31, 23)
-        Me.Button4.TabIndex = 4
-        Me.Button4.Text = "I"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(424, 272)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(31, 23)
-        Me.Button5.TabIndex = 5
-        Me.Button5.Text = "O"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(461, 272)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(31, 23)
-        Me.Button6.TabIndex = 6
-        Me.Button6.Text = "P"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(149, 301)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(31, 23)
-        Me.Button7.TabIndex = 7
-        Me.Button7.Text = "A"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button8
-        '
-        Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(186, 301)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(31, 23)
-        Me.Button8.TabIndex = 8
-        Me.Button8.Text = "S"
-        Me.Button8.UseVisualStyleBackColor = True
-        '
-        'Button9
-        '
-        Me.Button9.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(223, 301)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(31, 23)
-        Me.Button9.TabIndex = 9
-        Me.Button9.Text = "D"
-        Me.Button9.UseVisualStyleBackColor = True
-        '
-        'Button10
-        '
-        Me.Button10.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(260, 301)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(31, 23)
-        Me.Button10.TabIndex = 10
-        Me.Button10.Text = "F"
-        Me.Button10.UseVisualStyleBackColor = True
-        '
-        'Button11
-        '
-        Me.Button11.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.Location = New System.Drawing.Point(297, 301)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(31, 23)
-        Me.Button11.TabIndex = 11
-        Me.Button11.Text = "G"
-        Me.Button11.UseVisualStyleBackColor = True
-        '
-        'Button12
-        '
-        Me.Button12.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Location = New System.Drawing.Point(334, 301)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(31, 23)
-        Me.Button12.TabIndex = 12
-        Me.Button12.Text = "H"
-        Me.Button12.UseVisualStyleBackColor = True
-        '
-        'Button13
-        '
-        Me.Button13.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.Location = New System.Drawing.Point(276, 272)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(31, 23)
-        Me.Button13.TabIndex = 13
-        Me.Button13.Text = "T"
-        Me.Button13.UseVisualStyleBackColor = True
-        '
-        'Button14
-        '
-        Me.Button14.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.Location = New System.Drawing.Point(239, 272)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(31, 23)
-        Me.Button14.TabIndex = 14
-        Me.Button14.Text = "R"
-        Me.Button14.UseVisualStyleBackColor = True
-        '
-        'Button15
-        '
-        Me.Button15.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button15.Location = New System.Drawing.Point(202, 272)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(31, 23)
-        Me.Button15.TabIndex = 15
-        Me.Button15.Text = "E"
-        Me.Button15.UseVisualStyleBackColor = True
-        '
-        'Button16
-        '
-        Me.Button16.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button16.Location = New System.Drawing.Point(165, 272)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(31, 23)
-        Me.Button16.TabIndex = 16
-        Me.Button16.Text = "W"
-        Me.Button16.UseVisualStyleBackColor = True
-        '
-        'Button17
-        '
-        Me.Button17.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button17.Location = New System.Drawing.Point(313, 330)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(31, 23)
-        Me.Button17.TabIndex = 17
-        Me.Button17.Text = "B"
-        Me.Button17.UseVisualStyleBackColor = True
-        '
-        'Button18
-        '
-        Me.Button18.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button18.Location = New System.Drawing.Point(387, 330)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(31, 23)
-        Me.Button18.TabIndex = 18
-        Me.Button18.Text = "M"
-        Me.Button18.UseVisualStyleBackColor = True
-        '
-        'Button19
-        '
-        Me.Button19.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button19.Location = New System.Drawing.Point(371, 301)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(31, 23)
-        Me.Button19.TabIndex = 19
-        Me.Button19.Text = "J"
-        Me.Button19.UseVisualStyleBackColor = True
-        '
-        'Button20
-        '
-        Me.Button20.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button20.Location = New System.Drawing.Point(408, 301)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(31, 23)
-        Me.Button20.TabIndex = 20
-        Me.Button20.Text = "K"
-        Me.Button20.UseVisualStyleBackColor = True
-        '
-        'Button21
-        '
-        Me.Button21.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button21.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button21.Location = New System.Drawing.Point(445, 301)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(31, 23)
-        Me.Button21.TabIndex = 21
-        Me.Button21.Text = "L"
-        Me.Button21.UseVisualStyleBackColor = True
-        '
-        'Button22
-        '
-        Me.Button22.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button22.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button22.Location = New System.Drawing.Point(350, 330)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(31, 23)
-        Me.Button22.TabIndex = 22
-        Me.Button22.Text = "N"
-        Me.Button22.UseVisualStyleBackColor = True
-        '
-        'Button23
-        '
-        Me.Button23.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button23.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button23.Location = New System.Drawing.Point(276, 330)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(31, 23)
-        Me.Button23.TabIndex = 23
-        Me.Button23.Text = "V"
-        Me.Button23.UseVisualStyleBackColor = True
-        '
-        'Button24
-        '
-        Me.Button24.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button24.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button24.Location = New System.Drawing.Point(239, 330)
-        Me.Button24.Name = "Button24"
-        Me.Button24.Size = New System.Drawing.Size(31, 23)
-        Me.Button24.TabIndex = 24
-        Me.Button24.Text = "C"
-        Me.Button24.UseVisualStyleBackColor = True
-        '
-        'Button25
-        '
-        Me.Button25.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button25.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button25.Location = New System.Drawing.Point(202, 330)
-        Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(31, 23)
-        Me.Button25.TabIndex = 25
-        Me.Button25.Text = "X"
-        Me.Button25.UseVisualStyleBackColor = True
-        '
-        'Button26
-        '
-        Me.Button26.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button26.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button26.Location = New System.Drawing.Point(165, 330)
-        Me.Button26.Name = "Button26"
-        Me.Button26.Size = New System.Drawing.Size(31, 23)
-        Me.Button26.TabIndex = 26
-        Me.Button26.Text = "Z"
-        Me.Button26.UseVisualStyleBackColor = True
-        '
-        'Button32
-        '
-        Me.Button32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button32.Location = New System.Drawing.Point(200, 168)
-        Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(31, 23)
-        Me.Button32.TabIndex = 34
-        Me.Button32.Text = "_"
-        Me.Button32.UseVisualStyleBackColor = True
-        '
-        'Button33
-        '
-        Me.Button33.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button33.Location = New System.Drawing.Point(237, 168)
-        Me.Button33.Name = "Button33"
-        Me.Button33.Size = New System.Drawing.Size(31, 23)
-        Me.Button33.TabIndex = 35
-        Me.Button33.Text = "_"
-        Me.Button33.UseVisualStyleBackColor = True
-        '
-        'Button34
-        '
-        Me.Button34.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button34.Location = New System.Drawing.Point(274, 168)
-        Me.Button34.Name = "Button34"
-        Me.Button34.Size = New System.Drawing.Size(31, 23)
-        Me.Button34.TabIndex = 36
-        Me.Button34.Text = "_"
-        Me.Button34.UseVisualStyleBackColor = True
-        '
-        'Button35
-        '
-        Me.Button35.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button35.Location = New System.Drawing.Point(311, 168)
-        Me.Button35.Name = "Button35"
-        Me.Button35.Size = New System.Drawing.Size(31, 23)
-        Me.Button35.TabIndex = 37
-        Me.Button35.Text = "_"
-        Me.Button35.UseVisualStyleBackColor = True
-        '
-        'Button36
-        '
-        Me.Button36.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button36.Location = New System.Drawing.Point(348, 168)
-        Me.Button36.Name = "Button36"
-        Me.Button36.Size = New System.Drawing.Size(31, 23)
-        Me.Button36.TabIndex = 38
-        Me.Button36.Text = "_"
-        Me.Button36.UseVisualStyleBackColor = True
-        '
-        'Button37
-        '
-        Me.Button37.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button37.Location = New System.Drawing.Point(385, 168)
-        Me.Button37.Name = "Button37"
-        Me.Button37.Size = New System.Drawing.Size(31, 23)
-        Me.Button37.TabIndex = 39
-        Me.Button37.Text = "_"
-        Me.Button37.UseVisualStyleBackColor = True
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.White
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(56, 86)
+        Me.Panel1.Location = New System.Drawing.Point(64, 88)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(478, 39)
         Me.Panel1.TabIndex = 41
@@ -478,50 +152,746 @@ Partial Class Game
         Me.Panel2.Size = New System.Drawing.Size(100, 60)
         Me.Panel2.TabIndex = 42
         '
+        'lblA
+        '
+        Me.lblA.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblA.BackColor = System.Drawing.Color.Gray
+        Me.lblA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblA.Enabled = False
+        Me.lblA.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblA.Location = New System.Drawing.Point(141, 291)
+        Me.lblA.Name = "lblA"
+        Me.lblA.Size = New System.Drawing.Size(31, 23)
+        Me.lblA.TabIndex = 47
+        Me.lblA.Text = "A"
+        Me.lblA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblS
+        '
+        Me.lblS.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblS.BackColor = System.Drawing.Color.Gray
+        Me.lblS.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblS.Enabled = False
+        Me.lblS.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblS.Location = New System.Drawing.Point(178, 291)
+        Me.lblS.Name = "lblS"
+        Me.lblS.Size = New System.Drawing.Size(31, 23)
+        Me.lblS.TabIndex = 48
+        Me.lblS.Text = "S"
+        Me.lblS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblD
+        '
+        Me.lblD.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblD.BackColor = System.Drawing.Color.Gray
+        Me.lblD.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblD.Enabled = False
+        Me.lblD.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblD.Location = New System.Drawing.Point(215, 291)
+        Me.lblD.Name = "lblD"
+        Me.lblD.Size = New System.Drawing.Size(31, 23)
+        Me.lblD.TabIndex = 49
+        Me.lblD.Text = "D"
+        Me.lblD.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblF
+        '
+        Me.lblF.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblF.BackColor = System.Drawing.Color.Gray
+        Me.lblF.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblF.Enabled = False
+        Me.lblF.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblF.Location = New System.Drawing.Point(252, 291)
+        Me.lblF.Name = "lblF"
+        Me.lblF.Size = New System.Drawing.Size(31, 23)
+        Me.lblF.TabIndex = 50
+        Me.lblF.Text = "F"
+        Me.lblF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblQ
+        '
+        Me.lblQ.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblQ.BackColor = System.Drawing.Color.Gray
+        Me.lblQ.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblQ.Enabled = False
+        Me.lblQ.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblQ.Location = New System.Drawing.Point(120, 262)
+        Me.lblQ.Name = "lblQ"
+        Me.lblQ.Size = New System.Drawing.Size(31, 23)
+        Me.lblQ.TabIndex = 23
+        Me.lblQ.Text = "Q"
+        Me.lblQ.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblY
+        '
+        Me.lblY.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblY.BackColor = System.Drawing.Color.Gray
+        Me.lblY.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblY.Enabled = False
+        Me.lblY.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblY.Location = New System.Drawing.Point(305, 262)
+        Me.lblY.Name = "lblY"
+        Me.lblY.Size = New System.Drawing.Size(31, 23)
+        Me.lblY.TabIndex = 52
+        Me.lblY.Text = "Y"
+        Me.lblY.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblT
+        '
+        Me.lblT.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblT.BackColor = System.Drawing.Color.Gray
+        Me.lblT.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblT.Enabled = False
+        Me.lblT.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblT.Location = New System.Drawing.Point(268, 262)
+        Me.lblT.Name = "lblT"
+        Me.lblT.Size = New System.Drawing.Size(31, 23)
+        Me.lblT.TabIndex = 53
+        Me.lblT.Text = "T"
+        Me.lblT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblR
+        '
+        Me.lblR.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblR.BackColor = System.Drawing.Color.Gray
+        Me.lblR.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblR.Enabled = False
+        Me.lblR.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblR.Location = New System.Drawing.Point(231, 262)
+        Me.lblR.Name = "lblR"
+        Me.lblR.Size = New System.Drawing.Size(31, 23)
+        Me.lblR.TabIndex = 54
+        Me.lblR.Text = "R"
+        Me.lblR.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblE
+        '
+        Me.lblE.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblE.BackColor = System.Drawing.Color.Gray
+        Me.lblE.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblE.Enabled = False
+        Me.lblE.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblE.Location = New System.Drawing.Point(194, 262)
+        Me.lblE.Name = "lblE"
+        Me.lblE.Size = New System.Drawing.Size(31, 23)
+        Me.lblE.TabIndex = 55
+        Me.lblE.Text = "E"
+        Me.lblE.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblW
+        '
+        Me.lblW.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblW.BackColor = System.Drawing.Color.Gray
+        Me.lblW.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblW.Enabled = False
+        Me.lblW.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblW.Location = New System.Drawing.Point(157, 262)
+        Me.lblW.Name = "lblW"
+        Me.lblW.Size = New System.Drawing.Size(31, 23)
+        Me.lblW.TabIndex = 56
+        Me.lblW.Text = "W"
+        Me.lblW.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblU
+        '
+        Me.lblU.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblU.BackColor = System.Drawing.Color.Gray
+        Me.lblU.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblU.Enabled = False
+        Me.lblU.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblU.Location = New System.Drawing.Point(341, 262)
+        Me.lblU.Name = "lblU"
+        Me.lblU.Size = New System.Drawing.Size(31, 23)
+        Me.lblU.TabIndex = 57
+        Me.lblU.Text = "U"
+        Me.lblU.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblI
+        '
+        Me.lblI.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblI.BackColor = System.Drawing.Color.Gray
+        Me.lblI.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblI.Enabled = False
+        Me.lblI.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblI.Location = New System.Drawing.Point(379, 262)
+        Me.lblI.Name = "lblI"
+        Me.lblI.Size = New System.Drawing.Size(31, 23)
+        Me.lblI.TabIndex = 58
+        Me.lblI.Text = "I"
+        Me.lblI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblO
+        '
+        Me.lblO.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblO.BackColor = System.Drawing.Color.Gray
+        Me.lblO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblO.Enabled = False
+        Me.lblO.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblO.Location = New System.Drawing.Point(416, 262)
+        Me.lblO.Name = "lblO"
+        Me.lblO.Size = New System.Drawing.Size(31, 23)
+        Me.lblO.TabIndex = 59
+        Me.lblO.Text = "O"
+        Me.lblO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblP
+        '
+        Me.lblP.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblP.BackColor = System.Drawing.Color.Gray
+        Me.lblP.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblP.Enabled = False
+        Me.lblP.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblP.Location = New System.Drawing.Point(453, 262)
+        Me.lblP.Name = "lblP"
+        Me.lblP.Size = New System.Drawing.Size(31, 23)
+        Me.lblP.TabIndex = 60
+        Me.lblP.Text = "P"
+        Me.lblP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblV
+        '
+        Me.lblV.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblV.BackColor = System.Drawing.Color.Gray
+        Me.lblV.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblV.Enabled = False
+        Me.lblV.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblV.Location = New System.Drawing.Point(268, 320)
+        Me.lblV.Name = "lblV"
+        Me.lblV.Size = New System.Drawing.Size(31, 23)
+        Me.lblV.TabIndex = 61
+        Me.lblV.Text = "V"
+        Me.lblV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblC
+        '
+        Me.lblC.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblC.BackColor = System.Drawing.Color.Gray
+        Me.lblC.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblC.Enabled = False
+        Me.lblC.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblC.Location = New System.Drawing.Point(231, 320)
+        Me.lblC.Name = "lblC"
+        Me.lblC.Size = New System.Drawing.Size(31, 23)
+        Me.lblC.TabIndex = 62
+        Me.lblC.Text = "C"
+        Me.lblC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblX
+        '
+        Me.lblX.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblX.BackColor = System.Drawing.Color.Gray
+        Me.lblX.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblX.Enabled = False
+        Me.lblX.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblX.Location = New System.Drawing.Point(194, 320)
+        Me.lblX.Name = "lblX"
+        Me.lblX.Size = New System.Drawing.Size(31, 23)
+        Me.lblX.TabIndex = 63
+        Me.lblX.Text = "X"
+        Me.lblX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblZ
+        '
+        Me.lblZ.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblZ.BackColor = System.Drawing.Color.Gray
+        Me.lblZ.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblZ.Enabled = False
+        Me.lblZ.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblZ.Location = New System.Drawing.Point(157, 320)
+        Me.lblZ.Name = "lblZ"
+        Me.lblZ.Size = New System.Drawing.Size(31, 23)
+        Me.lblZ.TabIndex = 64
+        Me.lblZ.Text = "Z"
+        Me.lblZ.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblL
+        '
+        Me.lblL.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblL.BackColor = System.Drawing.Color.Gray
+        Me.lblL.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblL.Enabled = False
+        Me.lblL.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblL.Location = New System.Drawing.Point(437, 291)
+        Me.lblL.Name = "lblL"
+        Me.lblL.Size = New System.Drawing.Size(31, 23)
+        Me.lblL.TabIndex = 65
+        Me.lblL.Text = "L"
+        Me.lblL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblG
+        '
+        Me.lblG.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblG.BackColor = System.Drawing.Color.Gray
+        Me.lblG.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblG.Enabled = False
+        Me.lblG.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblG.Location = New System.Drawing.Point(289, 291)
+        Me.lblG.Name = "lblG"
+        Me.lblG.Size = New System.Drawing.Size(31, 23)
+        Me.lblG.TabIndex = 66
+        Me.lblG.Text = "G"
+        Me.lblG.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblH
+        '
+        Me.lblH.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblH.BackColor = System.Drawing.Color.Gray
+        Me.lblH.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblH.Enabled = False
+        Me.lblH.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblH.Location = New System.Drawing.Point(326, 291)
+        Me.lblH.Name = "lblH"
+        Me.lblH.Size = New System.Drawing.Size(31, 23)
+        Me.lblH.TabIndex = 67
+        Me.lblH.Text = "H"
+        Me.lblH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblJ
+        '
+        Me.lblJ.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblJ.BackColor = System.Drawing.Color.Gray
+        Me.lblJ.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblJ.Enabled = False
+        Me.lblJ.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblJ.Location = New System.Drawing.Point(363, 291)
+        Me.lblJ.Name = "lblJ"
+        Me.lblJ.Size = New System.Drawing.Size(31, 23)
+        Me.lblJ.TabIndex = 68
+        Me.lblJ.Text = "J"
+        Me.lblJ.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblK
+        '
+        Me.lblK.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblK.BackColor = System.Drawing.Color.Gray
+        Me.lblK.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblK.Enabled = False
+        Me.lblK.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblK.Location = New System.Drawing.Point(400, 291)
+        Me.lblK.Name = "lblK"
+        Me.lblK.Size = New System.Drawing.Size(31, 23)
+        Me.lblK.TabIndex = 69
+        Me.lblK.Text = "K"
+        Me.lblK.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblB
+        '
+        Me.lblB.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblB.BackColor = System.Drawing.Color.Gray
+        Me.lblB.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblB.Enabled = False
+        Me.lblB.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblB.Location = New System.Drawing.Point(305, 320)
+        Me.lblB.Name = "lblB"
+        Me.lblB.Size = New System.Drawing.Size(31, 23)
+        Me.lblB.TabIndex = 70
+        Me.lblB.Text = "B"
+        Me.lblB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblN
+        '
+        Me.lblN.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblN.BackColor = System.Drawing.Color.Gray
+        Me.lblN.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblN.Enabled = False
+        Me.lblN.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblN.Location = New System.Drawing.Point(342, 320)
+        Me.lblN.Name = "lblN"
+        Me.lblN.Size = New System.Drawing.Size(31, 23)
+        Me.lblN.TabIndex = 71
+        Me.lblN.Text = "N"
+        Me.lblN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lblM
+        '
+        Me.lblM.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblM.BackColor = System.Drawing.Color.Gray
+        Me.lblM.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblM.Enabled = False
+        Me.lblM.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblM.Location = New System.Drawing.Point(379, 320)
+        Me.lblM.Name = "lblM"
+        Me.lblM.Size = New System.Drawing.Size(31, 23)
+        Me.lblM.TabIndex = 72
+        Me.lblM.Text = "M"
+        Me.lblM.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'btnQ
+        '
+        Me.btnQ.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnQ.Location = New System.Drawing.Point(120, 262)
+        Me.btnQ.Name = "btnQ"
+        Me.btnQ.Size = New System.Drawing.Size(31, 23)
+        Me.btnQ.TabIndex = 73
+        Me.btnQ.Text = "Q"
+        Me.btnQ.UseVisualStyleBackColor = True
+        '
+        'btnP
+        '
+        Me.btnP.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnP.Location = New System.Drawing.Point(453, 262)
+        Me.btnP.Name = "btnP"
+        Me.btnP.Size = New System.Drawing.Size(31, 23)
+        Me.btnP.TabIndex = 74
+        Me.btnP.Text = "P"
+        Me.btnP.UseVisualStyleBackColor = True
+        '
+        'btnE
+        '
+        Me.btnE.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnE.Location = New System.Drawing.Point(194, 262)
+        Me.btnE.Name = "btnE"
+        Me.btnE.Size = New System.Drawing.Size(31, 23)
+        Me.btnE.TabIndex = 75
+        Me.btnE.Text = "E"
+        Me.btnE.UseVisualStyleBackColor = True
+        '
+        'btnO
+        '
+        Me.btnO.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnO.Location = New System.Drawing.Point(416, 262)
+        Me.btnO.Name = "btnO"
+        Me.btnO.Size = New System.Drawing.Size(31, 23)
+        Me.btnO.TabIndex = 76
+        Me.btnO.Text = "O"
+        Me.btnO.UseVisualStyleBackColor = True
+        '
+        'btnI
+        '
+        Me.btnI.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnI.Location = New System.Drawing.Point(379, 262)
+        Me.btnI.Name = "btnI"
+        Me.btnI.Size = New System.Drawing.Size(31, 23)
+        Me.btnI.TabIndex = 77
+        Me.btnI.Text = "I"
+        Me.btnI.UseVisualStyleBackColor = True
+        '
+        'btnU
+        '
+        Me.btnU.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnU.Location = New System.Drawing.Point(341, 262)
+        Me.btnU.Name = "btnU"
+        Me.btnU.Size = New System.Drawing.Size(31, 23)
+        Me.btnU.TabIndex = 78
+        Me.btnU.Text = "U"
+        Me.btnU.UseVisualStyleBackColor = True
+        '
+        'btnT
+        '
+        Me.btnT.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnT.Location = New System.Drawing.Point(268, 262)
+        Me.btnT.Name = "btnT"
+        Me.btnT.Size = New System.Drawing.Size(31, 23)
+        Me.btnT.TabIndex = 79
+        Me.btnT.Text = "T"
+        Me.btnT.UseVisualStyleBackColor = True
+        '
+        'btnW
+        '
+        Me.btnW.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnW.Location = New System.Drawing.Point(157, 262)
+        Me.btnW.Name = "btnW"
+        Me.btnW.Size = New System.Drawing.Size(31, 23)
+        Me.btnW.TabIndex = 80
+        Me.btnW.Text = "W"
+        Me.btnW.UseVisualStyleBackColor = True
+        '
+        'btnY
+        '
+        Me.btnY.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnY.Location = New System.Drawing.Point(305, 262)
+        Me.btnY.Name = "btnY"
+        Me.btnY.Size = New System.Drawing.Size(31, 23)
+        Me.btnY.TabIndex = 81
+        Me.btnY.Text = "Y"
+        Me.btnY.UseVisualStyleBackColor = True
+        '
+        'btnR
+        '
+        Me.btnR.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnR.Location = New System.Drawing.Point(231, 262)
+        Me.btnR.Name = "btnR"
+        Me.btnR.Size = New System.Drawing.Size(31, 23)
+        Me.btnR.TabIndex = 82
+        Me.btnR.Text = "R"
+        Me.btnR.UseVisualStyleBackColor = True
+        '
+        'btnL
+        '
+        Me.btnL.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnL.Location = New System.Drawing.Point(437, 291)
+        Me.btnL.Name = "btnL"
+        Me.btnL.Size = New System.Drawing.Size(31, 23)
+        Me.btnL.TabIndex = 83
+        Me.btnL.Text = "L"
+        Me.btnL.UseVisualStyleBackColor = True
+        '
+        'btnK
+        '
+        Me.btnK.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnK.Location = New System.Drawing.Point(400, 291)
+        Me.btnK.Name = "btnK"
+        Me.btnK.Size = New System.Drawing.Size(31, 23)
+        Me.btnK.TabIndex = 84
+        Me.btnK.Text = "K"
+        Me.btnK.UseVisualStyleBackColor = True
+        '
+        'btnJ
+        '
+        Me.btnJ.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnJ.Location = New System.Drawing.Point(363, 291)
+        Me.btnJ.Name = "btnJ"
+        Me.btnJ.Size = New System.Drawing.Size(31, 23)
+        Me.btnJ.TabIndex = 85
+        Me.btnJ.Text = "J"
+        Me.btnJ.UseVisualStyleBackColor = True
+        '
+        'btnH
+        '
+        Me.btnH.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnH.Location = New System.Drawing.Point(326, 291)
+        Me.btnH.Name = "btnH"
+        Me.btnH.Size = New System.Drawing.Size(31, 23)
+        Me.btnH.TabIndex = 86
+        Me.btnH.Text = "H"
+        Me.btnH.UseVisualStyleBackColor = True
+        '
+        'btnG
+        '
+        Me.btnG.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnG.Location = New System.Drawing.Point(289, 291)
+        Me.btnG.Name = "btnG"
+        Me.btnG.Size = New System.Drawing.Size(31, 23)
+        Me.btnG.TabIndex = 87
+        Me.btnG.Text = "G"
+        Me.btnG.UseVisualStyleBackColor = True
+        '
+        'btnF
+        '
+        Me.btnF.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnF.Location = New System.Drawing.Point(252, 291)
+        Me.btnF.Name = "btnF"
+        Me.btnF.Size = New System.Drawing.Size(31, 23)
+        Me.btnF.TabIndex = 88
+        Me.btnF.Text = "F"
+        Me.btnF.UseVisualStyleBackColor = True
+        '
+        'btnD
+        '
+        Me.btnD.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnD.Location = New System.Drawing.Point(215, 291)
+        Me.btnD.Name = "btnD"
+        Me.btnD.Size = New System.Drawing.Size(31, 23)
+        Me.btnD.TabIndex = 89
+        Me.btnD.Text = "D"
+        Me.btnD.UseVisualStyleBackColor = True
+        '
+        'btnS
+        '
+        Me.btnS.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnS.Location = New System.Drawing.Point(178, 291)
+        Me.btnS.Name = "btnS"
+        Me.btnS.Size = New System.Drawing.Size(31, 23)
+        Me.btnS.TabIndex = 90
+        Me.btnS.Text = "S"
+        Me.btnS.UseVisualStyleBackColor = True
+        '
+        'btnA
+        '
+        Me.btnA.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnA.Location = New System.Drawing.Point(141, 291)
+        Me.btnA.Name = "btnA"
+        Me.btnA.Size = New System.Drawing.Size(31, 23)
+        Me.btnA.TabIndex = 91
+        Me.btnA.Text = "A"
+        Me.btnA.UseVisualStyleBackColor = True
+        '
+        'btnZ
+        '
+        Me.btnZ.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnZ.Location = New System.Drawing.Point(157, 320)
+        Me.btnZ.Name = "btnZ"
+        Me.btnZ.Size = New System.Drawing.Size(31, 23)
+        Me.btnZ.TabIndex = 92
+        Me.btnZ.Text = "Z"
+        Me.btnZ.UseVisualStyleBackColor = True
+        '
+        'btnX
+        '
+        Me.btnX.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnX.Location = New System.Drawing.Point(194, 320)
+        Me.btnX.Name = "btnX"
+        Me.btnX.Size = New System.Drawing.Size(31, 23)
+        Me.btnX.TabIndex = 93
+        Me.btnX.Text = "X"
+        Me.btnX.UseVisualStyleBackColor = True
+        '
+        'btnC
+        '
+        Me.btnC.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnC.Location = New System.Drawing.Point(231, 320)
+        Me.btnC.Name = "btnC"
+        Me.btnC.Size = New System.Drawing.Size(31, 23)
+        Me.btnC.TabIndex = 94
+        Me.btnC.Text = "C"
+        Me.btnC.UseVisualStyleBackColor = True
+        '
+        'btnV
+        '
+        Me.btnV.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnV.Location = New System.Drawing.Point(268, 320)
+        Me.btnV.Name = "btnV"
+        Me.btnV.Size = New System.Drawing.Size(31, 23)
+        Me.btnV.TabIndex = 95
+        Me.btnV.Text = "V"
+        Me.btnV.UseVisualStyleBackColor = True
+        '
+        'btnB
+        '
+        Me.btnB.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnB.Location = New System.Drawing.Point(305, 320)
+        Me.btnB.Name = "btnB"
+        Me.btnB.Size = New System.Drawing.Size(31, 23)
+        Me.btnB.TabIndex = 96
+        Me.btnB.Text = "B"
+        Me.btnB.UseVisualStyleBackColor = True
+        '
+        'btnN
+        '
+        Me.btnN.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnN.Location = New System.Drawing.Point(342, 320)
+        Me.btnN.Name = "btnN"
+        Me.btnN.Size = New System.Drawing.Size(31, 23)
+        Me.btnN.TabIndex = 97
+        Me.btnN.Text = "N"
+        Me.btnN.UseVisualStyleBackColor = True
+        '
+        'btnM
+        '
+        Me.btnM.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnM.Location = New System.Drawing.Point(379, 320)
+        Me.btnM.Name = "btnM"
+        Me.btnM.Size = New System.Drawing.Size(31, 23)
+        Me.btnM.TabIndex = 98
+        Me.btnM.Text = "M"
+        Me.btnM.UseVisualStyleBackColor = True
+        '
         'Game
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MediumBlue
         Me.ClientSize = New System.Drawing.Size(598, 400)
+        Me.Controls.Add(Me.btnM)
+        Me.Controls.Add(Me.btnN)
+        Me.Controls.Add(Me.btnB)
+        Me.Controls.Add(Me.btnV)
+        Me.Controls.Add(Me.btnC)
+        Me.Controls.Add(Me.btnX)
+        Me.Controls.Add(Me.btnZ)
+        Me.Controls.Add(Me.btnA)
+        Me.Controls.Add(Me.btnS)
+        Me.Controls.Add(Me.btnD)
+        Me.Controls.Add(Me.btnF)
+        Me.Controls.Add(Me.btnG)
+        Me.Controls.Add(Me.btnH)
+        Me.Controls.Add(Me.btnJ)
+        Me.Controls.Add(Me.btnK)
+        Me.Controls.Add(Me.btnL)
+        Me.Controls.Add(Me.btnR)
+        Me.Controls.Add(Me.btnY)
+        Me.Controls.Add(Me.btnW)
+        Me.Controls.Add(Me.btnT)
+        Me.Controls.Add(Me.btnU)
+        Me.Controls.Add(Me.btnI)
+        Me.Controls.Add(Me.btnO)
+        Me.Controls.Add(Me.btnE)
+        Me.Controls.Add(Me.btnP)
+        Me.Controls.Add(Me.btnQ)
+        Me.Controls.Add(Me.lblM)
+        Me.Controls.Add(Me.lblN)
+        Me.Controls.Add(Me.lblB)
+        Me.Controls.Add(Me.lblK)
+        Me.Controls.Add(Me.lblJ)
+        Me.Controls.Add(Me.lblH)
+        Me.Controls.Add(Me.lblG)
+        Me.Controls.Add(Me.lblL)
+        Me.Controls.Add(Me.lblZ)
+        Me.Controls.Add(Me.lblX)
+        Me.Controls.Add(Me.lblC)
+        Me.Controls.Add(Me.lblV)
+        Me.Controls.Add(Me.lblP)
+        Me.Controls.Add(Me.lblO)
+        Me.Controls.Add(Me.lblI)
+        Me.Controls.Add(Me.lblU)
+        Me.Controls.Add(Me.lblW)
+        Me.Controls.Add(Me.lblE)
+        Me.Controls.Add(Me.lblR)
+        Me.Controls.Add(Me.lblT)
+        Me.Controls.Add(Me.lblY)
+        Me.Controls.Add(Me.lblQ)
+        Me.Controls.Add(Me.lblF)
+        Me.Controls.Add(Me.lblD)
+        Me.Controls.Add(Me.lblS)
+        Me.Controls.Add(Me.lblA)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Button37)
-        Me.Controls.Add(Me.Button36)
-        Me.Controls.Add(Me.Button35)
-        Me.Controls.Add(Me.Button34)
-        Me.Controls.Add(Me.Button33)
-        Me.Controls.Add(Me.Button32)
-        Me.Controls.Add(Me.Button26)
-        Me.Controls.Add(Me.Button25)
-        Me.Controls.Add(Me.Button24)
-        Me.Controls.Add(Me.Button23)
-        Me.Controls.Add(Me.Button22)
-        Me.Controls.Add(Me.Button21)
-        Me.Controls.Add(Me.Button20)
-        Me.Controls.Add(Me.Button19)
-        Me.Controls.Add(Me.Button18)
-        Me.Controls.Add(Me.Button17)
-        Me.Controls.Add(Me.Button16)
-        Me.Controls.Add(Me.Button15)
-        Me.Controls.Add(Me.Button14)
-        Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "Game"
         Me.Text = "Game"
@@ -531,42 +901,62 @@ Partial Class Game
 
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents Button7 As System.Windows.Forms.Button
-    Friend WithEvents Button8 As System.Windows.Forms.Button
-    Friend WithEvents Button9 As System.Windows.Forms.Button
-    Friend WithEvents Button10 As System.Windows.Forms.Button
-    Friend WithEvents Button11 As System.Windows.Forms.Button
-    Friend WithEvents Button12 As System.Windows.Forms.Button
-    Friend WithEvents Button13 As System.Windows.Forms.Button
-    Friend WithEvents Button14 As System.Windows.Forms.Button
-    Friend WithEvents Button15 As System.Windows.Forms.Button
-    Friend WithEvents Button16 As System.Windows.Forms.Button
-    Friend WithEvents Button17 As System.Windows.Forms.Button
-    Friend WithEvents Button18 As System.Windows.Forms.Button
-    Friend WithEvents Button19 As System.Windows.Forms.Button
-    Friend WithEvents Button20 As System.Windows.Forms.Button
-    Friend WithEvents Button21 As System.Windows.Forms.Button
-    Friend WithEvents Button22 As System.Windows.Forms.Button
-    Friend WithEvents Button23 As System.Windows.Forms.Button
-    Friend WithEvents Button24 As System.Windows.Forms.Button
-    Friend WithEvents Button25 As System.Windows.Forms.Button
-    Friend WithEvents Button26 As System.Windows.Forms.Button
-    Friend WithEvents Button32 As System.Windows.Forms.Button
-    Friend WithEvents Button33 As System.Windows.Forms.Button
-    Friend WithEvents Button34 As System.Windows.Forms.Button
-    Friend WithEvents Button35 As System.Windows.Forms.Button
-    Friend WithEvents Button36 As System.Windows.Forms.Button
-    Friend WithEvents Button37 As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
     Friend WithEvents Panel4 As System.Windows.Forms.Panel
     Friend WithEvents Panel5 As System.Windows.Forms.Panel
     Friend WithEvents Panel6 As System.Windows.Forms.Panel
+    Friend WithEvents lblA As System.Windows.Forms.Label
+    Friend WithEvents lblS As System.Windows.Forms.Label
+    Friend WithEvents lblD As System.Windows.Forms.Label
+    Friend WithEvents lblF As System.Windows.Forms.Label
+    Friend WithEvents lblQ As System.Windows.Forms.Label
+    Friend WithEvents lblY As System.Windows.Forms.Label
+    Friend WithEvents lblT As System.Windows.Forms.Label
+    Friend WithEvents lblR As System.Windows.Forms.Label
+    Friend WithEvents lblE As System.Windows.Forms.Label
+    Friend WithEvents lblW As System.Windows.Forms.Label
+    Friend WithEvents lblU As System.Windows.Forms.Label
+    Friend WithEvents lblI As System.Windows.Forms.Label
+    Friend WithEvents lblO As System.Windows.Forms.Label
+    Friend WithEvents lblP As System.Windows.Forms.Label
+    Friend WithEvents lblV As System.Windows.Forms.Label
+    Friend WithEvents lblC As System.Windows.Forms.Label
+    Friend WithEvents lblX As System.Windows.Forms.Label
+    Friend WithEvents lblZ As System.Windows.Forms.Label
+    Friend WithEvents lblL As System.Windows.Forms.Label
+    Friend WithEvents lblG As System.Windows.Forms.Label
+    Friend WithEvents lblH As System.Windows.Forms.Label
+    Friend WithEvents lblJ As System.Windows.Forms.Label
+    Friend WithEvents lblK As System.Windows.Forms.Label
+    Friend WithEvents lblB As System.Windows.Forms.Label
+    Friend WithEvents lblN As System.Windows.Forms.Label
+    Friend WithEvents lblM As System.Windows.Forms.Label
+    Friend WithEvents btnQ As System.Windows.Forms.Button
+    Friend WithEvents btnP As System.Windows.Forms.Button
+    Friend WithEvents btnE As System.Windows.Forms.Button
+    Friend WithEvents btnO As System.Windows.Forms.Button
+    Friend WithEvents btnI As System.Windows.Forms.Button
+    Friend WithEvents btnU As System.Windows.Forms.Button
+    Friend WithEvents btnT As System.Windows.Forms.Button
+    Friend WithEvents btnW As System.Windows.Forms.Button
+    Friend WithEvents btnY As System.Windows.Forms.Button
+    Friend WithEvents btnR As System.Windows.Forms.Button
+    Friend WithEvents btnL As System.Windows.Forms.Button
+    Friend WithEvents btnK As System.Windows.Forms.Button
+    Friend WithEvents btnJ As System.Windows.Forms.Button
+    Friend WithEvents btnH As System.Windows.Forms.Button
+    Friend WithEvents btnG As System.Windows.Forms.Button
+    Friend WithEvents btnF As System.Windows.Forms.Button
+    Friend WithEvents btnD As System.Windows.Forms.Button
+    Friend WithEvents btnS As System.Windows.Forms.Button
+    Friend WithEvents btnA As System.Windows.Forms.Button
+    Friend WithEvents btnZ As System.Windows.Forms.Button
+    Friend WithEvents btnX As System.Windows.Forms.Button
+    Friend WithEvents btnC As System.Windows.Forms.Button
+    Friend WithEvents btnV As System.Windows.Forms.Button
+    Friend WithEvents btnB As System.Windows.Forms.Button
+    Friend WithEvents btnN As System.Windows.Forms.Button
+    Friend WithEvents btnM As System.Windows.Forms.Button
 End Class

@@ -24,3 +24,4 @@ C:\Users\AHMAD\Documents\Visual Studio 2010\Projects\GameVB\GameVB\obj\x86\Debug
 C:\Users\AHMAD\Documents\Visual Studio 2010\Projects\GameVB\GameVB\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\AHMAD\Documents\Visual Studio 2010\Projects\GameVB\GameVB\obj\x86\Debug\GameVB.About.resources
 C:\Users\AHMAD\Documents\Visual Studio 2010\Projects\GameVB\GameVB\obj\x86\Debug\GameVB.Start.resources
+C:\Users\AHMAD\Documents\Visual Studio 2010\Projects\GameVB\GameVB\bin\Debug\MyDB.mdb

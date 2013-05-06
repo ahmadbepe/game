@@ -22,7 +22,6 @@ Partial Class Score
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -46,15 +45,17 @@ Partial Class Score
         Me.Panel18 = New System.Windows.Forms.Panel()
         Me.Panel19 = New System.Windows.Forms.Panel()
         Me.Panel20 = New System.Windows.Forms.Panel()
+        Me.DataGrid1 = New System.Windows.Forms.DataGrid()
+        Me.OleDbConnection1 = New System.Data.OleDb.OleDbConnection()
+        Me.OleDbSelectCommand1 = New System.Data.OleDb.OleDbCommand()
+        Me.OleDbInsertCommand1 = New System.Data.OleDb.OleDbCommand()
+        Me.OleDbUpdateCommand1 = New System.Data.OleDb.OleDbCommand()
+        Me.OleDbDeleteCommand1 = New System.Data.OleDb.OleDbCommand()
+        Me.OleDbDataAdapter1 = New System.Data.OleDb.OleDbDataAdapter()
+        Me.DataSet1 = New System.Data.DataSet()
+        CType(Me.DataGrid1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'ListBox1
-        '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(73, 102)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(450, 186)
-        Me.ListBox1.TabIndex = 0
         '
         'Button1
         '
@@ -268,12 +269,66 @@ Partial Class Score
         Me.Panel20.Size = New System.Drawing.Size(53, 35)
         Me.Panel20.TabIndex = 49
         '
+        'DataGrid1
+        '
+        Me.DataGrid1.DataMember = ""
+        Me.DataGrid1.HeaderForeColor = System.Drawing.SystemColors.ControlText
+        Me.DataGrid1.Location = New System.Drawing.Point(73, 103)
+        Me.DataGrid1.Name = "DataGrid1"
+        Me.DataGrid1.PreferredColumnWidth = 150
+        Me.DataGrid1.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.DataGrid1.Size = New System.Drawing.Size(450, 195)
+        Me.DataGrid1.TabIndex = 59
+        '
+        'OleDbConnection1
+        '
+        Me.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=""C:\Users\AHMAD\Documents\Visual Stu" & _
+            "dio 2010\Projects\GameVB\GameVB\obj\x86\Debug\MyDB.mdb"""
+        '
+        'OleDbSelectCommand1
+        '
+        Me.OleDbSelectCommand1.CommandText = "SELECT        nilai.*" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM            nilai"
+        Me.OleDbSelectCommand1.Connection = Me.OleDbConnection1
+        '
+        'OleDbInsertCommand1
+        '
+        Me.OleDbInsertCommand1.CommandText = "INSERT INTO `Nilai` (`Nama`, `Nilai`) VALUES (?, ?)"
+        Me.OleDbInsertCommand1.Connection = Me.OleDbConnection1
+        Me.OleDbInsertCommand1.Parameters.AddRange(New System.Data.OleDb.OleDbParameter() {New System.Data.OleDb.OleDbParameter("Nama", System.Data.OleDb.OleDbType.VarWChar, 0, "Nama"), New System.Data.OleDb.OleDbParameter("Nilai", System.Data.OleDb.OleDbType.[Integer], 0, "Nilai")})
+        '
+        'OleDbUpdateCommand1
+        '
+        Me.OleDbUpdateCommand1.CommandText = "UPDATE `Nilai` SET `Nama` = ?, `Nilai` = ? WHERE ((`Nama` = ?) AND ((? = 1 AND `N" & _
+            "ilai` IS NULL) OR (`Nilai` = ?)))"
+        Me.OleDbUpdateCommand1.Connection = Me.OleDbConnection1
+        Me.OleDbUpdateCommand1.Parameters.AddRange(New System.Data.OleDb.OleDbParameter() {New System.Data.OleDb.OleDbParameter("Nama", System.Data.OleDb.OleDbType.VarWChar, 0, "Nama"), New System.Data.OleDb.OleDbParameter("Nilai", System.Data.OleDb.OleDbType.[Integer], 0, "Nilai"), New System.Data.OleDb.OleDbParameter("Original_Nama", System.Data.OleDb.OleDbType.VarWChar, 0, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nama", System.Data.DataRowVersion.Original, Nothing), New System.Data.OleDb.OleDbParameter("IsNull_Nilai", System.Data.OleDb.OleDbType.[Integer], 0, System.Data.ParameterDirection.Input, CType(0, Byte), CType(0, Byte), "Nilai", System.Data.DataRowVersion.Original, True, Nothing), New System.Data.OleDb.OleDbParameter("Original_Nilai", System.Data.OleDb.OleDbType.[Integer], 0, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nilai", System.Data.DataRowVersion.Original, Nothing)})
+        '
+        'OleDbDeleteCommand1
+        '
+        Me.OleDbDeleteCommand1.CommandText = "DELETE FROM `Nilai` WHERE ((`Nama` = ?) AND ((? = 1 AND `Nilai` IS NULL) OR (`Nil" & _
+            "ai` = ?)))"
+        Me.OleDbDeleteCommand1.Connection = Me.OleDbConnection1
+        Me.OleDbDeleteCommand1.Parameters.AddRange(New System.Data.OleDb.OleDbParameter() {New System.Data.OleDb.OleDbParameter("Original_Nama", System.Data.OleDb.OleDbType.VarWChar, 0, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nama", System.Data.DataRowVersion.Original, Nothing), New System.Data.OleDb.OleDbParameter("IsNull_Nilai", System.Data.OleDb.OleDbType.[Integer], 0, System.Data.ParameterDirection.Input, CType(0, Byte), CType(0, Byte), "Nilai", System.Data.DataRowVersion.Original, True, Nothing), New System.Data.OleDb.OleDbParameter("Original_Nilai", System.Data.OleDb.OleDbType.[Integer], 0, System.Data.ParameterDirection.Input, False, CType(0, Byte), CType(0, Byte), "Nilai", System.Data.DataRowVersion.Original, Nothing)})
+        '
+        'OleDbDataAdapter1
+        '
+        Me.OleDbDataAdapter1.DeleteCommand = Me.OleDbDeleteCommand1
+        Me.OleDbDataAdapter1.InsertCommand = Me.OleDbInsertCommand1
+        Me.OleDbDataAdapter1.SelectCommand = Me.OleDbSelectCommand1
+        Me.OleDbDataAdapter1.TableMappings.AddRange(New System.Data.Common.DataTableMapping() {New System.Data.Common.DataTableMapping("Table", "nilai", New System.Data.Common.DataColumnMapping() {New System.Data.Common.DataColumnMapping("Nama", "Nama"), New System.Data.Common.DataColumnMapping("Nilai", "Nilai")})})
+        Me.OleDbDataAdapter1.UpdateCommand = Me.OleDbUpdateCommand1
+        '
+        'DataSet1
+        '
+        Me.DataSet1.DataSetName = "NewDataSet"
+        '
         'Score
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MediumBlue
         Me.ClientSize = New System.Drawing.Size(598, 400)
+        Me.Controls.Add(Me.DataGrid1)
         Me.Controls.Add(Me.Panel11)
         Me.Controls.Add(Me.Panel10)
         Me.Controls.Add(Me.Panel12)
@@ -297,15 +352,15 @@ Partial Class Score
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ListBox1)
         Me.ForeColor = System.Drawing.Color.MediumBlue
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "Score"
+        CType(Me.DataGrid1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
     Protected WithEvents Button1 As System.Windows.Forms.Button
     Protected WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
@@ -329,4 +384,12 @@ Partial Class Score
     Friend WithEvents Panel18 As System.Windows.Forms.Panel
     Friend WithEvents Panel19 As System.Windows.Forms.Panel
     Friend WithEvents Panel20 As System.Windows.Forms.Panel
+    Friend WithEvents DataGrid1 As System.Windows.Forms.DataGrid
+    Friend WithEvents OleDbConnection1 As System.Data.OleDb.OleDbConnection
+    Friend WithEvents OleDbSelectCommand1 As System.Data.OleDb.OleDbCommand
+    Friend WithEvents OleDbInsertCommand1 As System.Data.OleDb.OleDbCommand
+    Friend WithEvents OleDbUpdateCommand1 As System.Data.OleDb.OleDbCommand
+    Friend WithEvents OleDbDeleteCommand1 As System.Data.OleDb.OleDbCommand
+    Friend WithEvents OleDbDataAdapter1 As System.Data.OleDb.OleDbDataAdapter
+    Friend WithEvents DataSet1 As System.Data.DataSet
 End Class

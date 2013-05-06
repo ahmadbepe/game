@@ -22,6 +22,7 @@ Partial Class GameVB
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.lblNama = New System.Windows.Forms.Label()
         Me.txtNama = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -29,6 +30,7 @@ Partial Class GameVB
         Me.pbLoading = New System.Windows.Forms.ProgressBar()
         Me.lblLoading = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.waktu = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'lblNama
@@ -97,6 +99,10 @@ Partial Class GameVB
         Me.Panel1.Size = New System.Drawing.Size(273, 156)
         Me.Panel1.TabIndex = 6
         '
+        'waktu
+        '
+        Me.waktu.Interval = 3000
+        '
         'GameVB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -125,5 +131,6 @@ Partial Class GameVB
     Friend WithEvents pbLoading As System.Windows.Forms.ProgressBar
     Friend WithEvents lblLoading As System.Windows.Forms.Label
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents waktu As System.Windows.Forms.Timer
 
 End Class
