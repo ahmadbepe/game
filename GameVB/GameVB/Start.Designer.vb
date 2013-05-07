@@ -23,7 +23,6 @@ Partial Class Start
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -38,20 +37,10 @@ Partial Class Start
         Me.Button1.Text = "Main"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button2
-        '
-        Me.Button2.Font = New System.Drawing.Font("Segoe Print", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(468, 76)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(120, 50)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Score"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Segoe Print", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(468, 132)
+        Me.Button3.Location = New System.Drawing.Point(468, 76)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(120, 50)
         Me.Button3.TabIndex = 2
@@ -61,7 +50,7 @@ Partial Class Start
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Segoe Print", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(468, 188)
+        Me.Button4.Location = New System.Drawing.Point(468, 132)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(120, 50)
         Me.Button4.TabIndex = 3
@@ -78,7 +67,6 @@ Partial Class Start
         Me.ClientSize = New System.Drawing.Size(600, 250)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.ForeColor = System.Drawing.Color.MediumBlue
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
@@ -88,7 +76,6 @@ Partial Class Start
 
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
 End Class

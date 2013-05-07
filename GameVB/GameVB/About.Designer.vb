@@ -23,6 +23,7 @@ Partial Class About
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.TextBoxDescription = New System.Windows.Forms.TextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.LabelProductName = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -33,7 +34,6 @@ Partial Class About
         Me.LabelCompanyName = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBoxDescription = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -52,6 +52,24 @@ Partial Class About
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(259, 90)
         Me.Panel1.TabIndex = 0
+        '
+        'TextBoxDescription
+        '
+        Me.TextBoxDescription.BackColor = System.Drawing.Color.Lavender
+        Me.TextBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TextBoxDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxDescription.ForeColor = System.Drawing.Color.Black
+        Me.TextBoxDescription.Location = New System.Drawing.Point(0, 0)
+        Me.TextBoxDescription.Margin = New System.Windows.Forms.Padding(6, 3, 3, 3)
+        Me.TextBoxDescription.Multiline = True
+        Me.TextBoxDescription.Name = "TextBoxDescription"
+        Me.TextBoxDescription.ReadOnly = True
+        Me.TextBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both
+        Me.TextBoxDescription.Size = New System.Drawing.Size(259, 90)
+        Me.TextBoxDescription.TabIndex = 2
+        Me.TextBoxDescription.TabStop = False
+        Me.TextBoxDescription.Text = "Deskripsi :" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Permainan D'Adventure ini adalah sebuah permainan tebak kata yang be" & _
+            "rtemakan pulau dan kepulauan nusantara. "
         '
         'Panel2
         '
@@ -76,7 +94,7 @@ Partial Class About
         Me.LabelProductName.Name = "LabelProductName"
         Me.LabelProductName.Size = New System.Drawing.Size(260, 17)
         Me.LabelProductName.TabIndex = 1
-        Me.LabelProductName.Text = "Permainan Acakata"
+        Me.LabelProductName.Text = "Permainan D'Adventure"
         Me.LabelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Panel3
@@ -180,24 +198,6 @@ Partial Class About
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "OK"
         Me.Button1.UseVisualStyleBackColor = True
-        '
-        'TextBoxDescription
-        '
-        Me.TextBoxDescription.BackColor = System.Drawing.Color.Lavender
-        Me.TextBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBoxDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxDescription.ForeColor = System.Drawing.Color.Black
-        Me.TextBoxDescription.Location = New System.Drawing.Point(0, 0)
-        Me.TextBoxDescription.Margin = New System.Windows.Forms.Padding(6, 3, 3, 3)
-        Me.TextBoxDescription.Multiline = True
-        Me.TextBoxDescription.Name = "TextBoxDescription"
-        Me.TextBoxDescription.ReadOnly = True
-        Me.TextBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both
-        Me.TextBoxDescription.Size = New System.Drawing.Size(259, 90)
-        Me.TextBoxDescription.TabIndex = 2
-        Me.TextBoxDescription.TabStop = False
-        Me.TextBoxDescription.Text = "Deskripsi :" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Permainan acakata ini adalah sebuah permainan tebak kata yang bertem" & _
-            "akan nusantara. "
         '
         'About
         '

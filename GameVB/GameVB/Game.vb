@@ -3,145 +3,43 @@
 Public Class Game
 
     Dim LB() As Label
-    Public klik As String
+    Dim BT(25) As Button 'membuat tombol A-Z
+    Dim Data As New System.Collections.Specialized.StringCollection
+    Dim DataSekarang As String
     Dim Kesempatan As Integer
-    Dim mTemp1 As String
-    Dim mtemp2 As String = " "
-    Public m As String
+    Dim nilai As Integer = 0
 
-    Private Sub btnQ_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnQ.Click
-        btnQ.Hide()
-        klik = "q"
+    Sub MasukkanData() 'menulis data pulau
+        Dim i As Integer = FreeFile()
+        FileOpen(i, Application.StartupPath & "\Pulau.txt", OpenMode.Output)
+        PrintLine(i, "Sumatera" & vbCrLf & "Jawa" & vbCrLf & "Madura" & vbCrLf & "Bali" & vbCrLf & "Kalimantan")
+        PrintLine(i, "Sulawesi" & vbCrLf & "Bangka" & vbCrLf & "Riau" & vbCrLf & "Maluku" & vbCrLf & "Seribu")
+        FileClose(i)
     End Sub
 
-    Private Sub btnW_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnW.Click
-        btnW.Hide()
+    Sub RefreshData()
+        Dim i As Integer, ar() As String
+
+        If IO.File.Exists(Application.StartupPath & "\Pulau.txt") = False Then MasukkanData()
+
+ulang:
+        i = FreeFile()
+        FileOpen(i, Application.StartupPath & "\Pulau.txt", OpenMode.Input)
+        ar = Split(InputString(i, LOF(i)), vbCrLf)
+        FileClose(i)
+
+        Data.Clear()
+        For i = 0 To UBound(ar)
+            If Trim(ar(i)) <> "" Then Data.Add(Trim(ar(i)))
+        Next
+
+        If Data.Count = 0 Then
+            MasukkanData()
+            GoTo ulang
+        End If
     End Sub
 
-    Private Sub btnE_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnE.Click
-        btnE.Hide()
-        klik = "e"
-    End Sub
-
-    Private Sub btnR_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnR.Click
-        btnR.Hide()
-    End Sub
-
-    Private Sub btnT_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnT.Click
-        btnT.Hide()
-    End Sub
-
-    Private Sub btnY_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnY.Click
-        btnY.Hide()
-    End Sub
-
-    Private Sub btnU_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnU.Click
-        btnU.Hide()
-    End Sub
-
-    Private Sub btnI_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnI.Click
-        btnI.Hide()
-    End Sub
-
-    Private Sub btnO_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnO.Click
-        btnO.Hide()
-    End Sub
-
-    Private Sub btnP_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnP.Click
-        btnP.Hide()
-    End Sub
-
-    Private Sub btnA_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnA.Click
-        btnA.Hide()
-    End Sub
-
-    Private Sub btnS_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnS.Click
-        btnS.Hide()
-    End Sub
-
-    Private Sub btnD_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnD.Click
-        btnD.Hide()
-    End Sub
-
-    Private Sub btnF_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnF.Click
-        btnF.Hide()
-    End Sub
-
-    Private Sub btnG_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnG.Click
-        btnG.Hide()
-    End Sub
-
-    Private Sub btnH_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnH.Click
-        btnH.Hide()
-    End Sub
-
-    Private Sub btnJ_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnJ.Click
-        btnJ.Hide()
-    End Sub
-
-    Private Sub btnK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnK.Click
-        btnK.Hide()
-    End Sub
-
-    Private Sub btnL_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnL.Click
-        btnL.Hide()
-    End Sub
-
-    Private Sub btnZ_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnZ.Click
-        btnZ.Hide()
-    End Sub
-
-    Private Sub btnX_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnX.Click
-        btnX.Hide()
-    End Sub
-
-    Private Sub btnC_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnC.Click
-        btnC.Hide()
-    End Sub
-
-    Private Sub btnV_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnV.Click
-        btnV.Hide()
-    End Sub
-
-    Private Sub btnB_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnB.Click
-        btnB.Hide()
-    End Sub
-
-    Private Sub btnN_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnN.Click
-        btnN.Hide()
-    End Sub
-
-    Private Sub btnM_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnM.Click
-        btnM.Hide()
-    End Sub
-
-    Private Sub Game_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Dim ObjConn As OleDbConnection
-        Dim ObjCommand As OleDbCommand
-        Dim ObjDataAdapter As OleDbDataReader
-        Dim StrConn, StrSQL As String
-
-        StrConn = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\AHMAD\Documents\Visual Studio 2010\Projects\GameVB\GameVB\obj\x86\Debug\MyDB.mdb" 
-        StrSQL = "select * from soal"
-        ObjConn = New OleDbConnection(StrConn)
-        ObjCommand = New OleDbCommand(StrSQL, ObjConn)
-        ObjConn.Open()
-        ObjDataAdapter = ObjCommand.ExecuteReader
-
-        'definisikan sebuah string temporer untuk menampung data 
-        
-
-        'baca data berulang-ulang 
-        Do While ObjDataAdapter.Read() = True
-            'isi dataadapter dengan data yang telah dibaca 
-            mTemp1 = ObjDataAdapter("soal")
-            'tampilkan data dalam listbox 
-            Label1.Text = mTemp1
-            m = mtemp2
-            mtemp2 = ObjDataAdapter("jawaban")
-
-        Loop
-
+    Sub MulaiBaru()
         Dim i As Integer
 
         If IsNothing(LB) = False Then
@@ -149,21 +47,25 @@ Public Class Game
                 LB(i).Dispose()
             Next
         End If
-        ReDim LB(Len(mtemp2) - 1)
-        For i = 0 To UBound(LB) 'proses membuat label
+        Randomize()
+        DataSekarang = Data(Rnd() * (Data.Count - 1)) 'mengacak data yg muncul
+
+        ReDim LB(Len(DataSekarang) - 1) 'mengatur ulang jumlah huruf
+
+        For i = 0 To UBound(LB) 'membuat label
             LB(i) = New Label
             LB(i).TextAlign = ContentAlignment.MiddleCenter
             LB(i).BorderStyle = BorderStyle.FixedSingle
             LB(i).Width = 25
-            LB(i).Top = 180
+            LB(i).Top = 50
 
             If i = 0 Then
-                LB(i).Left = 80
+                LB(i).Left = 180
             Else
-                LB(i).Left = LB(i - 1).Left + 30
+                LB(i).Left = LB(i - 1).Left + 25
             End If
 
-            If Mid(mtemp2, i + 1, 1) = " " Then 'jk spasi
+            If Mid(DataSekarang, i + 1, 1) = " " Then 'spasi
                 LB(i).Text = " "
                 LB(i).BackColor = Color.FromArgb(200, 200, 200)
             Else
@@ -173,14 +75,109 @@ Public Class Game
             Me.Controls.Add(LB(i))
         Next
 
-        Dim huruf As Integer = 0
+        For i = 0 To 25 'meng enable semua button
+            BT(i).Enabled = True
+        Next
 
-        Do While huruf < m.Length = True
-            Label1.Text = Label1.Text & "x"
-            huruf += 1
-        Loop
-        'tutup dataadapter dan koneksi 
-        ObjDataAdapter.Close()
-        ObjConn.Close()
+        Kesempatan = 7 'jml kesempatan 
+        lblKesempatan.Text = "Kesempatan : " & Kesempatan
+    End Sub
+
+    Function Jawaban() As String
+        Dim i As Integer, s As String
+        For i = 0 To UBound(LB)
+            s &= LB(i).Text
+        Next
+        Jawaban = s
+    End Function
+
+    Sub BT_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        SendKeys.Send(CType(sender.Text, String))
+    End Sub
+
+    Private Sub Game_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles Me.KeyPress
+        Dim i As Integer
+
+        i = Asc(UCase(e.KeyChar)) - Asc("A")
+
+        If i >= 0 And i <= 25 Then
+            If BT(i).Enabled = False Then Exit Sub 'keluar dr prosedur jk tombol sdh pernah ditekan
+
+            BT(i).Enabled = False
+        End If
+
+
+        If (InStr(UCase(DataSekarang), UCase(e.KeyChar)) <> 0) Then 'jika benar ada di data
+
+            For i = 0 To Len(DataSekarang) - 1
+                If Mid(UCase(DataSekarang), i + 1, 1) = UCase(e.KeyChar) Then LB(i).Text = UCase(e.KeyChar)
+            Next
+
+            If UCase(DataSekarang) = UCase(Jawaban) Then 'jika sudah komplit
+                MsgBox("Anda Benar" & vbCrLf & UCase(DataSekarang), vbInformation)
+                nilai += 10
+                MulaiBaru()
+            End If
+
+        Else 'jika salah
+            Kesempatan -= 1 'mengurangi kesempatan
+            lblKesempatan.Text = "Kesempatan : " & Kesempatan
+            'lblKesempatan.Text = "Kesempatan Anda sebanyak : " & Kesempatan
+
+            If Kesempatan = 0 Then 'jika kesempatan habis
+                MsgBox("Kesempatan Habis" & vbCrLf & "Kata yang benar adalah " & UCase(DataSekarang) & vbCrLf & " Nilai Anda " & nilai)
+            End If
+
+        End If
+    End Sub
+
+    Private Sub Game_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Dim i As Integer
+
+        Me.Text = "D'Adventure"
+        For i = 0 To 25 'proses pembuatan tombol A-Z
+            BT(i) = New Button
+            BT(i).Text = Chr(Asc("A") + i)
+            BT(i).Top = 100
+            BT(i).Width = 30
+
+            If i = 0 Then
+                BT(i).Left = 180
+            Else
+                BT(i).Left = BT(i - 1).Left + 30
+                If i >= 10 Then
+                    BT(i).Top += 40
+                    If i = 10 Then
+                        BT(i).Left = 200
+                    End If
+                    BT(i).Left += 1
+                    If i >= 19 Then
+                        BT(i).Top += 40
+                        If i = 19 Then
+                            BT(i).Left = 220
+                        End If
+                        BT(i).Left += 1
+                    End If
+                End If
+            End If
+
+
+            AddHandler BT(i).Click, AddressOf BT_Click 'menambahakan event click
+
+            Me.Controls.Add(BT(i))
+        Next
+
+        RefreshData()
+        MulaiBaru()
+    End Sub
+
+    Private Sub Game_Load_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        MulaiBaru()
+        Me.Hide()
+        Start.Show()
     End Sub
 End Class

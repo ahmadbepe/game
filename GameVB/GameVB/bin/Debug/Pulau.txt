@@ -1,15 +1,10 @@
-apel
-jeruk
-manggis
-anggur
-semangka
-melon
-nanas
-wortel
-belimbing wuluh
-kelengkeng
-alpukat
-markisa
-delima
-duren
-rambutan
+Sumatera
+Jawa
+Madura
+Bali
+Kalimantan
+Sulawesi
+Bangka
+Riau
+Maluku
+Seribu

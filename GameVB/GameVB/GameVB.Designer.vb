@@ -29,16 +29,16 @@ Partial Class GameVB
         Me.Button2 = New System.Windows.Forms.Button()
         Me.pbLoading = New System.Windows.Forms.ProgressBar()
         Me.lblLoading = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.waktu = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'lblNama
         '
         Me.lblNama.AutoSize = True
+        Me.lblNama.BackColor = System.Drawing.Color.Transparent
         Me.lblNama.Font = New System.Drawing.Font("Arial Unicode MS", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblNama.ForeColor = System.Drawing.Color.White
-        Me.lblNama.Location = New System.Drawing.Point(84, 189)
+        Me.lblNama.Location = New System.Drawing.Point(133, 74)
         Me.lblNama.Name = "lblNama"
         Me.lblNama.Size = New System.Drawing.Size(131, 25)
         Me.lblNama.TabIndex = 0
@@ -47,7 +47,7 @@ Partial Class GameVB
         'txtNama
         '
         Me.txtNama.Font = New System.Drawing.Font("Arial Unicode MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNama.Location = New System.Drawing.Point(236, 189)
+        Me.txtNama.Location = New System.Drawing.Point(285, 74)
         Me.txtNama.Name = "txtNama"
         Me.txtNama.Size = New System.Drawing.Size(254, 29)
         Me.txtNama.TabIndex = 1
@@ -55,7 +55,7 @@ Partial Class GameVB
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(236, 248)
+        Me.Button1.Location = New System.Drawing.Point(383, 109)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 32)
         Me.Button1.TabIndex = 2
@@ -65,7 +65,7 @@ Partial Class GameVB
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(415, 248)
+        Me.Button2.Location = New System.Drawing.Point(464, 109)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 32)
         Me.Button2.TabIndex = 3
@@ -74,30 +74,22 @@ Partial Class GameVB
         '
         'pbLoading
         '
-        Me.pbLoading.Location = New System.Drawing.Point(44, 343)
+        Me.pbLoading.Location = New System.Drawing.Point(177, 226)
         Me.pbLoading.Name = "pbLoading"
-        Me.pbLoading.Size = New System.Drawing.Size(510, 15)
+        Me.pbLoading.Size = New System.Drawing.Size(362, 12)
         Me.pbLoading.TabIndex = 4
         '
         'lblLoading
         '
         Me.lblLoading.AutoSize = True
+        Me.lblLoading.BackColor = System.Drawing.Color.Transparent
         Me.lblLoading.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLoading.ForeColor = System.Drawing.Color.White
-        Me.lblLoading.Location = New System.Drawing.Point(244, 309)
+        Me.lblLoading.Location = New System.Drawing.Point(173, 203)
         Me.lblLoading.Name = "lblLoading"
         Me.lblLoading.Size = New System.Drawing.Size(118, 20)
         Me.lblLoading.TabIndex = 5
         Me.lblLoading.Text = "Loading  .  .  ."
-        '
-        'Panel1
-        '
-        Me.Panel1.BackgroundImage = Global.GameVB.My.Resources.Resources.acakata
-        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel1.Location = New System.Drawing.Point(168, 12)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(273, 156)
-        Me.Panel1.TabIndex = 6
         '
         'waktu
         '
@@ -107,9 +99,10 @@ Partial Class GameVB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.MediumBlue
-        Me.ClientSize = New System.Drawing.Size(600, 400)
-        Me.Controls.Add(Me.Panel1)
+        Me.BackColor = System.Drawing.Color.Lavender
+        Me.BackgroundImage = Global.GameVB.My.Resources.Resources.NEW_BACKGROUND
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(600, 250)
         Me.Controls.Add(Me.lblLoading)
         Me.Controls.Add(Me.pbLoading)
         Me.Controls.Add(Me.Button2)
@@ -130,7 +123,6 @@ Partial Class GameVB
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents pbLoading As System.Windows.Forms.ProgressBar
     Friend WithEvents lblLoading As System.Windows.Forms.Label
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents waktu As System.Windows.Forms.Timer
 
 End Class
