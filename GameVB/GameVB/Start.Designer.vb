@@ -26,13 +26,12 @@ Partial Class Start
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Segoe Print", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(446, 74)
+        Me.Button1.Location = New System.Drawing.Point(468, 20)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(120, 50)
         Me.Button1.TabIndex = 0
@@ -42,7 +41,7 @@ Partial Class Start
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Segoe Print", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(446, 144)
+        Me.Button2.Location = New System.Drawing.Point(468, 76)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(120, 50)
         Me.Button2.TabIndex = 1
@@ -52,7 +51,7 @@ Partial Class Start
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Segoe Print", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(446, 216)
+        Me.Button3.Location = New System.Drawing.Point(468, 132)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(120, 50)
         Me.Button3.TabIndex = 2
@@ -62,29 +61,21 @@ Partial Class Start
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Segoe Print", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(446, 286)
+        Me.Button4.Location = New System.Drawing.Point(468, 188)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(120, 50)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "Keluar"
         Me.Button4.UseVisualStyleBackColor = True
         '
-        'Panel1
-        '
-        Me.Panel1.BackgroundImage = Global.GameVB.My.Resources.Resources.acakata
-        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel1.Location = New System.Drawing.Point(45, 74)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(361, 261)
-        Me.Panel1.TabIndex = 4
-        '
         'Start
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MediumBlue
-        Me.ClientSize = New System.Drawing.Size(600, 400)
-        Me.Controls.Add(Me.Panel1)
+        Me.BackgroundImage = Global.GameVB.My.Resources.Resources.NEW_BACKGROUND
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(600, 250)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -100,5 +91,4 @@ Partial Class Start
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
 End Class

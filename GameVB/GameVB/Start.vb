@@ -14,5 +14,13 @@
 
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
         Me.Close()
+        Score.Close()
+        Game.Close()
+        GameVB.Close()
+        About.Close()
+    End Sub
+
+    Private Sub Start_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

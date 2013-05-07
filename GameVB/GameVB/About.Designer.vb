@@ -23,7 +23,6 @@ Partial Class About
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.TextBoxDescription = New System.Windows.Forms.TextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.LabelProductName = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -34,7 +33,7 @@ Partial Class About
         Me.LabelCompanyName = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.TextBoxDescription = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -49,28 +48,10 @@ Partial Class About
         Me.Panel1.Controls.Add(Me.TextBoxDescription)
         Me.Panel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.ForeColor = System.Drawing.Color.White
-        Me.Panel1.Location = New System.Drawing.Point(312, 176)
+        Me.Panel1.Location = New System.Drawing.Point(312, 111)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(259, 132)
+        Me.Panel1.Size = New System.Drawing.Size(259, 90)
         Me.Panel1.TabIndex = 0
-        '
-        'TextBoxDescription
-        '
-        Me.TextBoxDescription.BackColor = System.Drawing.Color.MediumBlue
-        Me.TextBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBoxDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxDescription.ForeColor = System.Drawing.Color.White
-        Me.TextBoxDescription.Location = New System.Drawing.Point(0, 0)
-        Me.TextBoxDescription.Margin = New System.Windows.Forms.Padding(6, 3, 3, 3)
-        Me.TextBoxDescription.Multiline = True
-        Me.TextBoxDescription.Name = "TextBoxDescription"
-        Me.TextBoxDescription.ReadOnly = True
-        Me.TextBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both
-        Me.TextBoxDescription.Size = New System.Drawing.Size(259, 132)
-        Me.TextBoxDescription.TabIndex = 1
-        Me.TextBoxDescription.TabStop = False
-        Me.TextBoxDescription.Text = "Deskripsi :" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Permainan acakata ini adalah sebuah permainan tebak kata yang bertem" & _
-            "akan nusantara. "
         '
         'Panel2
         '
@@ -85,10 +66,10 @@ Partial Class About
         '
         'LabelProductName
         '
-        Me.LabelProductName.BackColor = System.Drawing.Color.MediumBlue
+        Me.LabelProductName.BackColor = System.Drawing.Color.Lavender
         Me.LabelProductName.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelProductName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelProductName.ForeColor = System.Drawing.Color.White
+        Me.LabelProductName.ForeColor = System.Drawing.Color.Black
         Me.LabelProductName.Location = New System.Drawing.Point(0, 0)
         Me.LabelProductName.Margin = New System.Windows.Forms.Padding(6, 0, 3, 0)
         Me.LabelProductName.MaximumSize = New System.Drawing.Size(0, 17)
@@ -111,10 +92,10 @@ Partial Class About
         '
         'LabelVersion
         '
-        Me.LabelVersion.BackColor = System.Drawing.Color.MediumBlue
+        Me.LabelVersion.BackColor = System.Drawing.Color.Lavender
         Me.LabelVersion.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelVersion.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelVersion.ForeColor = System.Drawing.Color.White
+        Me.LabelVersion.ForeColor = System.Drawing.Color.Black
         Me.LabelVersion.Location = New System.Drawing.Point(0, 0)
         Me.LabelVersion.Margin = New System.Windows.Forms.Padding(6, 0, 3, 0)
         Me.LabelVersion.MaximumSize = New System.Drawing.Size(0, 17)
@@ -137,10 +118,10 @@ Partial Class About
         '
         'LabelCopyright
         '
-        Me.LabelCopyright.BackColor = System.Drawing.Color.MediumBlue
+        Me.LabelCopyright.BackColor = System.Drawing.Color.Lavender
         Me.LabelCopyright.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelCopyright.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelCopyright.ForeColor = System.Drawing.Color.White
+        Me.LabelCopyright.ForeColor = System.Drawing.Color.Black
         Me.LabelCopyright.Location = New System.Drawing.Point(0, 0)
         Me.LabelCopyright.Margin = New System.Windows.Forms.Padding(6, 0, 3, 0)
         Me.LabelCopyright.MaximumSize = New System.Drawing.Size(0, 17)
@@ -163,10 +144,10 @@ Partial Class About
         '
         'LabelCompanyName
         '
-        Me.LabelCompanyName.BackColor = System.Drawing.Color.MediumBlue
+        Me.LabelCompanyName.BackColor = System.Drawing.Color.Lavender
         Me.LabelCompanyName.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelCompanyName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelCompanyName.ForeColor = System.Drawing.Color.White
+        Me.LabelCompanyName.ForeColor = System.Drawing.Color.Black
         Me.LabelCompanyName.Location = New System.Drawing.Point(0, 0)
         Me.LabelCompanyName.Margin = New System.Windows.Forms.Padding(6, 0, 3, 0)
         Me.LabelCompanyName.MaximumSize = New System.Drawing.Size(0, 17)
@@ -178,45 +159,55 @@ Partial Class About
         '
         'Panel6
         '
-        Me.Panel6.BackColor = System.Drawing.Color.MediumBlue
+        Me.Panel6.BackColor = System.Drawing.Color.Lavender
         Me.Panel6.Controls.Add(Me.Panel2)
         Me.Panel6.Controls.Add(Me.Panel5)
         Me.Panel6.Controls.Add(Me.Panel3)
         Me.Panel6.Controls.Add(Me.Panel4)
         Me.Panel6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel6.ForeColor = System.Drawing.Color.White
-        Me.Panel6.Location = New System.Drawing.Point(312, 44)
+        Me.Panel6.Location = New System.Drawing.Point(312, 12)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(259, 126)
+        Me.Panel6.Size = New System.Drawing.Size(259, 93)
         Me.Panel6.TabIndex = 3
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(471, 337)
+        Me.Button1.Location = New System.Drawing.Point(475, 207)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 28)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "OK"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Panel7
+        'TextBoxDescription
         '
-        Me.Panel7.BackgroundImage = Global.GameVB.My.Resources.Resources.acakata
-        Me.Panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel7.Location = New System.Drawing.Point(29, 44)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(270, 191)
-        Me.Panel7.TabIndex = 4
+        Me.TextBoxDescription.BackColor = System.Drawing.Color.Lavender
+        Me.TextBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TextBoxDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxDescription.ForeColor = System.Drawing.Color.Black
+        Me.TextBoxDescription.Location = New System.Drawing.Point(0, 0)
+        Me.TextBoxDescription.Margin = New System.Windows.Forms.Padding(6, 3, 3, 3)
+        Me.TextBoxDescription.Multiline = True
+        Me.TextBoxDescription.Name = "TextBoxDescription"
+        Me.TextBoxDescription.ReadOnly = True
+        Me.TextBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both
+        Me.TextBoxDescription.Size = New System.Drawing.Size(259, 90)
+        Me.TextBoxDescription.TabIndex = 2
+        Me.TextBoxDescription.TabStop = False
+        Me.TextBoxDescription.Text = "Deskripsi :" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Permainan acakata ini adalah sebuah permainan tebak kata yang bertem" & _
+            "akan nusantara. "
         '
         'About
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MediumBlue
-        Me.ClientSize = New System.Drawing.Size(600, 400)
+        Me.BackgroundImage = Global.GameVB.My.Resources.Resources.NEW_BACKGROUND
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(600, 250)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Panel7)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel1)
         Me.ForeColor = System.Drawing.Color.MediumBlue
@@ -234,7 +225,6 @@ Partial Class About
 
     End Sub
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
-    Friend WithEvents TextBoxDescription As System.Windows.Forms.TextBox
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents LabelProductName As System.Windows.Forms.Label
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
@@ -244,6 +234,6 @@ Partial Class About
     Friend WithEvents Panel5 As System.Windows.Forms.Panel
     Friend WithEvents LabelCompanyName As System.Windows.Forms.Label
     Friend WithEvents Panel6 As System.Windows.Forms.Panel
-    Friend WithEvents Panel7 As System.Windows.Forms.Panel
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents TextBoxDescription As System.Windows.Forms.TextBox
 End Class
